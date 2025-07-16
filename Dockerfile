@@ -1,6 +1,5 @@
 # Use NVIDIA’s DeepStream development image as base
-FROM nvcr.io/nvidia/deepstream:6.2.1-devel-ubuntu20.04
-
+FROM nvcr.io/nvidia/deepstream:7.1-gc-triton-devel
 # Install tools for NGC CLI
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
