@@ -5,7 +5,7 @@ perf-measurement-interval-sec=5
 [source0]
 enable=1
 type=3
-uri=file://$PWD/data/parking_video.h264
+uri=file:///workspace/data/parking_video.h264
 num-sources=1
 gpu-id=0
 
@@ -19,7 +19,7 @@ batched-push-timeout=4000000
 [primary-gie]
 enable=1
 gpu-id=0
-config-file=configs/parking_pgie_config.txt
+config-file=/workspace/configs/parking_pgie_config.txt
 gie-unique-id=1
 
 [tracker]
@@ -31,7 +31,7 @@ gpu-id=0
 [secondary-gie]
 enable=1
 gpu-id=0
-config-file=configs/lpr_pgie_config.txt
+config-file=/workspace/configs/lpr_pgie_config.txt
 gie-unique-id=2
 
 [osd]
@@ -40,12 +40,12 @@ gpu-id=0
 
 [msg-converter]
 enable=1
-config=configs/msg_conv_config.txt
+config=/workspace/configs/msg_conv_config.txt
 
 [msg-broker]
 enable=1
 proto-lib=libnvmsgbroker_file.so
-file-dir=output
+file-dir=/workspace/output
 file-prefix=events
 
 [sink0]
