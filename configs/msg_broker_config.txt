@@ -1,0 +1,9 @@
+{
+  "file-output-config": {
+    "enable-file-output": true,
+    "output-dir": "/workspace/output",
+    "filename-prefix": "events",
+    "file-ext": "txt",
+    "enable-output-properties": false
+  }
+}
