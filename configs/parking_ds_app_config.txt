@@ -51,7 +51,3 @@ file-prefix=events
 [sink0]
 enable=1
 type=6
-
-[sink0]
-enable=1
-type=6
