@@ -1,0 +1,13 @@
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+offsets=123.0;117.0;104.0
+
+[tlt-config]
+model-engine-file=models/lpr.etlt
+labelfile-path=models/lpr-labels.txt
+int8-calib-file=models/lpr-calib.int8
+batch-size=1
+network-mode=2
+infer-dims=3;94;24
+interval=0

@@ -1,0 +1,6 @@
+{
+  "payload": "EVENT_MSG",
+  "config": {
+    "delimiter": "\n"
+  }
+}

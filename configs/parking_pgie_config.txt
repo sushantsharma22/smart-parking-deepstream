@@ -1,0 +1,13 @@
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+offsets=123.0;117.0;104.0
+
+[tlt-config]
+model-engine-file=models/vehicle-detection.etlt
+labelfile-path=models/labels.txt
+int8-calib-file=models/vehicle-detection-calib.int8
+batch-size=1
+network-mode=2
+infer-dims=3;300;300
+interval=0
