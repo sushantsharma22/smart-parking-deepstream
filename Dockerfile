@@ -9,8 +9,8 @@ RUN apt-get update && \
 # Install NGC CLI
 RUN wget -O /usr/local/ngccli_linux.zip https://ngc.nvidia.com/downloads/ngccli_linux.zip && \
     unzip /usr/local/ngccli_linux.zip -d /usr/local && \
-    chmod +x /usr/local/ngc && \
-    ln -s /usr/local/ngc /usr/local/bin/ngc && \
+    chmod +x /usr/local/ngc-cli/ngc && \
+    ln -s /usr/local/ngc-cli/ngc /usr/local/bin/ngc && \
     rm /usr/local/ngccli_linux.zip
 
 # Install Python dependencies
